@@ -1,0 +1,22 @@
+{
+  "name": "fairdinosbot",
+  "version": "1.0.0",
+  "description": "Discord Bot Base",
+  "main": "./source/main.js",
+  "scripts": {
+    "start": "node ./source/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "basic-ftp": "^5.0.5",
+    "chalk": "^4.1.2",
+    "discord.js": "^14.16.3",
+    "gamedig": "^4.3.2",
+    "log-timestamp": "^0.3.0",
+    "mongoose": "^6.7.0",
+    "rcon-client": "^4.2.5",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7"
+  }
+}
